@@ -1,0 +1,3199 @@
+
+{
+    "data": {
+      "constants": {
+        "heroes": [
+          {
+            "name": "npc_dota_hero_antimage",
+            "displayName": "Anti-Mage",
+            "aliases": [
+              "am"
+            ],
+            "id": 1,
+            "shortName": "antimage",
+            "roles": [
+              {
+                "level": 3,
+                "roleId": 0
+              },
+              {
+                "level": 3,
+                "roleId": 1
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_axe",
+            "displayName": "Axe",
+            "aliases": [],
+            "id": 2,
+            "shortName": "axe",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 0
+              },
+              {
+                "level": 3,
+                "roleId": 3
+              },
+              {
+                "level": 3,
+                "roleId": 4
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              },
+              {
+                "level": 2,
+                "roleId": 6
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_bane",
+            "displayName": "Bane",
+            "aliases": [],
+            "id": 3,
+            "shortName": "bane",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 4
+              },
+              {
+                "level": 3,
+                "roleId": 5
+              },
+              {
+                "level": 2,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_bloodseeker",
+            "displayName": "Bloodseeker",
+            "aliases": [
+              "bs"
+            ],
+            "id": 4,
+            "shortName": "bloodseeker",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 3
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 6
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_crystal_maiden",
+            "displayName": "Crystal Maiden",
+            "aliases": [
+              "cm",
+              "rylai"
+            ],
+            "id": 5,
+            "shortName": "crystal_maiden",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 2
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 6
+              },
+              {
+                "level": 3,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_drow_ranger",
+            "displayName": "Drow Ranger",
+            "aliases": [],
+            "id": 6,
+            "shortName": "drow_ranger",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_earthshaker",
+            "displayName": "Earthshaker",
+            "aliases": [],
+            "id": 7,
+            "shortName": "earthshaker",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 3,
+                "roleId": 3
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_juggernaut",
+            "displayName": "Juggernaut",
+            "aliases": [],
+            "id": 8,
+            "shortName": "juggernaut",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 1
+              },
+              {
+                "level": 1,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_mirana",
+            "displayName": "Mirana",
+            "aliases": [],
+            "id": 9,
+            "shortName": "mirana",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 0
+              },
+              {
+                "level": 2,
+                "roleId": 1
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_morphling",
+            "displayName": "Morphling",
+            "aliases": [],
+            "id": 10,
+            "shortName": "morphling",
+            "roles": [
+              {
+                "level": 3,
+                "roleId": 0
+              },
+              {
+                "level": 3,
+                "roleId": 1
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 2,
+                "roleId": 4
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_nevermore",
+            "displayName": "Shadow Fiend",
+            "aliases": [
+              "sf"
+            ],
+            "id": 11,
+            "shortName": "nevermore",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 3,
+                "roleId": 2
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_phantom_lancer",
+            "displayName": "Phantom Lancer",
+            "aliases": [
+              "pl"
+            ],
+            "id": 12,
+            "shortName": "phantom_lancer",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 2,
+                "roleId": 1
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_puck",
+            "displayName": "Puck",
+            "aliases": [],
+            "id": 13,
+            "shortName": "puck",
+            "roles": [
+              {
+                "level": 3,
+                "roleId": 1
+              },
+              {
+                "level": 2,
+                "roleId": 2
+              },
+              {
+                "level": 3,
+                "roleId": 3
+              },
+              {
+                "level": 3,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_pudge",
+            "displayName": "Pudge",
+            "aliases": [],
+            "id": 14,
+            "shortName": "pudge",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 2,
+                "roleId": 3
+              },
+              {
+                "level": 2,
+                "roleId": 4
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_razor",
+            "displayName": "Razor",
+            "aliases": [],
+            "id": 15,
+            "shortName": "razor",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 2,
+                "roleId": 4
+              },
+              {
+                "level": 1,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_sand_king",
+            "displayName": "Sand King",
+            "aliases": [
+              "sk"
+            ],
+            "id": 16,
+            "shortName": "sand_king",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 1
+              },
+              {
+                "level": 2,
+                "roleId": 2
+              },
+              {
+                "level": 3,
+                "roleId": 3
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 6
+              },
+              {
+                "level": 1,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_storm_spirit",
+            "displayName": "Storm Spirit",
+            "aliases": [
+              "ss",
+              "raijin"
+            ],
+            "id": 17,
+            "shortName": "storm_spirit",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 3,
+                "roleId": 1
+              },
+              {
+                "level": 2,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 3
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_sven",
+            "displayName": "Sven",
+            "aliases": [],
+            "id": 18,
+            "shortName": "sven",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 2,
+                "roleId": 3
+              },
+              {
+                "level": 2,
+                "roleId": 4
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_tiny",
+            "displayName": "Tiny",
+            "aliases": [],
+            "id": 19,
+            "shortName": "tiny",
+            "roles": [
+              {
+                "level": 3,
+                "roleId": 0
+              },
+              {
+                "level": 2,
+                "roleId": 2
+              },
+              {
+                "level": 2,
+                "roleId": 3
+              },
+              {
+                "level": 2,
+                "roleId": 4
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 2,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_vengefulspirit",
+            "displayName": "Vengeful Spirit",
+            "aliases": [
+              "vs"
+            ],
+            "id": 20,
+            "shortName": "vengefulspirit",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 1
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 2,
+                "roleId": 3
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              },
+              {
+                "level": 3,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_windrunner",
+            "displayName": "Windranger",
+            "aliases": [
+              "wr"
+            ],
+            "id": 21,
+            "shortName": "windrunner",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 1
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_zuus",
+            "displayName": "Zeus",
+            "aliases": [],
+            "id": 22,
+            "shortName": "zuus",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 0
+              },
+              {
+                "level": 3,
+                "roleId": 2
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_kunkka",
+            "displayName": "Kunkka",
+            "aliases": [],
+            "id": 23,
+            "shortName": "kunkka",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 2,
+                "roleId": 3
+              },
+              {
+                "level": 1,
+                "roleId": 4
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_lina",
+            "displayName": "Lina",
+            "aliases": [],
+            "id": 25,
+            "shortName": "lina",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 0
+              },
+              {
+                "level": 3,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_lion",
+            "displayName": "Lion",
+            "aliases": [],
+            "id": 26,
+            "shortName": "lion",
+            "roles": [
+              {
+                "level": 3,
+                "roleId": 2
+              },
+              {
+                "level": 2,
+                "roleId": 3
+              },
+              {
+                "level": 3,
+                "roleId": 5
+              },
+              {
+                "level": 2,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_shadow_shaman",
+            "displayName": "Shadow Shaman",
+            "aliases": [
+              "ss"
+            ],
+            "id": 27,
+            "shortName": "shadow_shaman",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 3
+              },
+              {
+                "level": 3,
+                "roleId": 5
+              },
+              {
+                "level": 2,
+                "roleId": 7
+              },
+              {
+                "level": 3,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_slardar",
+            "displayName": "Slardar",
+            "aliases": [],
+            "id": 28,
+            "shortName": "slardar",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 1
+              },
+              {
+                "level": 2,
+                "roleId": 3
+              },
+              {
+                "level": 2,
+                "roleId": 4
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_tidehunter",
+            "displayName": "Tidehunter",
+            "aliases": [],
+            "id": 29,
+            "shortName": "tidehunter",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 3,
+                "roleId": 3
+              },
+              {
+                "level": 3,
+                "roleId": 4
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_witch_doctor",
+            "displayName": "Witch Doctor",
+            "aliases": [
+              "wd"
+            ],
+            "id": 30,
+            "shortName": "witch_doctor",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 3,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_lich",
+            "displayName": "Lich",
+            "aliases": [],
+            "id": 31,
+            "shortName": "lich",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 2
+              },
+              {
+                "level": 3,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_riki",
+            "displayName": "Riki",
+            "aliases": [],
+            "id": 32,
+            "shortName": "riki",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 2,
+                "roleId": 1
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_enigma",
+            "displayName": "Enigma",
+            "aliases": [],
+            "id": 33,
+            "shortName": "enigma",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 3
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              },
+              {
+                "level": 3,
+                "roleId": 6
+              },
+              {
+                "level": 2,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_tinker",
+            "displayName": "Tinker",
+            "aliases": [],
+            "id": 34,
+            "shortName": "tinker",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 0
+              },
+              {
+                "level": 3,
+                "roleId": 2
+              },
+              {
+                "level": 2,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_sniper",
+            "displayName": "Sniper",
+            "aliases": [],
+            "id": 35,
+            "shortName": "sniper",
+            "roles": [
+              {
+                "level": 3,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_necrolyte",
+            "displayName": "Necrophos",
+            "aliases": [],
+            "id": 36,
+            "shortName": "necrolyte",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 0
+              },
+              {
+                "level": 2,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 4
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_warlock",
+            "displayName": "Warlock",
+            "aliases": [],
+            "id": 37,
+            "shortName": "warlock",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 3
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_beastmaster",
+            "displayName": "Beastmaster",
+            "aliases": [
+              "bm"
+            ],
+            "id": 38,
+            "shortName": "beastmaster",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 2,
+                "roleId": 3
+              },
+              {
+                "level": 2,
+                "roleId": 4
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_queenofpain",
+            "displayName": "Queen of Pain",
+            "aliases": [
+              "qop"
+            ],
+            "id": 39,
+            "shortName": "queenofpain",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 0
+              },
+              {
+                "level": 3,
+                "roleId": 1
+              },
+              {
+                "level": 3,
+                "roleId": 2
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_venomancer",
+            "displayName": "Venomancer",
+            "aliases": [],
+            "id": 40,
+            "shortName": "venomancer",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 3
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 2,
+                "roleId": 7
+              },
+              {
+                "level": 1,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_faceless_void",
+            "displayName": "Faceless Void",
+            "aliases": [
+              "fv"
+            ],
+            "id": 41,
+            "shortName": "faceless_void",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 1
+              },
+              {
+                "level": 3,
+                "roleId": 3
+              },
+              {
+                "level": 1,
+                "roleId": 4
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_skeleton_king",
+            "displayName": "Wraith King",
+            "aliases": [
+              "sk",
+              "snk",
+              "wk",
+              "skeleton"
+            ],
+            "id": 42,
+            "shortName": "skeleton_king",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 3
+              },
+              {
+                "level": 3,
+                "roleId": 4
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_death_prophet",
+            "displayName": "Death Prophet",
+            "aliases": [
+              "dp"
+            ],
+            "id": 43,
+            "shortName": "death_prophet",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 3,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_phantom_assassin",
+            "displayName": "Phantom Assassin",
+            "aliases": [
+              "pa",
+              "mortred"
+            ],
+            "id": 44,
+            "shortName": "phantom_assassin",
+            "roles": [
+              {
+                "level": 3,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 1
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_pugna",
+            "displayName": "Pugna",
+            "aliases": [],
+            "id": 45,
+            "shortName": "pugna",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 2
+              },
+              {
+                "level": 2,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_templar_assassin",
+            "displayName": "Templar Assassin",
+            "aliases": [
+              "ta"
+            ],
+            "id": 46,
+            "shortName": "templar_assassin",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 1
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_viper",
+            "displayName": "Viper",
+            "aliases": [],
+            "id": 47,
+            "shortName": "viper",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 3
+              },
+              {
+                "level": 2,
+                "roleId": 4
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_luna",
+            "displayName": "Luna",
+            "aliases": [],
+            "id": 48,
+            "shortName": "luna",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 2,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_dragon_knight",
+            "displayName": "Dragon Knight",
+            "aliases": [
+              "dk",
+              "davion"
+            ],
+            "id": 49,
+            "shortName": "dragon_knight",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 3
+              },
+              {
+                "level": 2,
+                "roleId": 4
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              },
+              {
+                "level": 3,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_dazzle",
+            "displayName": "Dazzle",
+            "aliases": [],
+            "id": 50,
+            "shortName": "dazzle",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 3,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_rattletrap",
+            "displayName": "Clockwerk",
+            "aliases": [],
+            "id": 51,
+            "shortName": "rattletrap",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 3,
+                "roleId": 3
+              },
+              {
+                "level": 1,
+                "roleId": 4
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_leshrac",
+            "displayName": "Leshrac",
+            "aliases": [],
+            "id": 52,
+            "shortName": "leshrac",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 0
+              },
+              {
+                "level": 3,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 7
+              },
+              {
+                "level": 3,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_furion",
+            "displayName": "Nature's Prophet",
+            "aliases": [
+              "np"
+            ],
+            "id": 53,
+            "shortName": "furion",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 1
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 3,
+                "roleId": 6
+              },
+              {
+                "level": 3,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_life_stealer",
+            "displayName": "Lifestealer",
+            "aliases": [],
+            "id": 54,
+            "shortName": "life_stealer",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 1
+              },
+              {
+                "level": 2,
+                "roleId": 4
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 6
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_dark_seer",
+            "displayName": "Dark Seer",
+            "aliases": [
+              "ds"
+            ],
+            "id": 55,
+            "shortName": "dark_seer",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 1
+              },
+              {
+                "level": 1,
+                "roleId": 3
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 6
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_clinkz",
+            "displayName": "Clinkz",
+            "aliases": [],
+            "id": 56,
+            "shortName": "clinkz",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 3,
+                "roleId": 1
+              },
+              {
+                "level": 1,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_omniknight",
+            "displayName": "Omniknight",
+            "aliases": [],
+            "id": 57,
+            "shortName": "omniknight",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 4
+              },
+              {
+                "level": 2,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_enchantress",
+            "displayName": "Enchantress",
+            "aliases": [],
+            "id": 58,
+            "shortName": "enchantress",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 4
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 3,
+                "roleId": 6
+              },
+              {
+                "level": 2,
+                "roleId": 7
+              },
+              {
+                "level": 2,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_huskar",
+            "displayName": "Huskar",
+            "aliases": [],
+            "id": 59,
+            "shortName": "huskar",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 3
+              },
+              {
+                "level": 2,
+                "roleId": 4
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_night_stalker",
+            "displayName": "Night Stalker",
+            "aliases": [
+              "ns"
+            ],
+            "id": 60,
+            "shortName": "night_stalker",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 2,
+                "roleId": 3
+              },
+              {
+                "level": 2,
+                "roleId": 4
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_broodmother",
+            "displayName": "Broodmother",
+            "aliases": [
+              "bm"
+            ],
+            "id": 61,
+            "shortName": "broodmother",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 0
+              },
+              {
+                "level": 3,
+                "roleId": 1
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 3,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_bounty_hunter",
+            "displayName": "Bounty Hunter",
+            "aliases": [
+              "bh"
+            ],
+            "id": 62,
+            "shortName": "bounty_hunter",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 1
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_weaver",
+            "displayName": "Weaver",
+            "aliases": [],
+            "id": 63,
+            "shortName": "weaver",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 3,
+                "roleId": 1
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_jakiro",
+            "displayName": "Jakiro",
+            "aliases": [],
+            "id": 64,
+            "shortName": "jakiro",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 7
+              },
+              {
+                "level": 2,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_batrider",
+            "displayName": "Batrider",
+            "aliases": [
+              "br"
+            ],
+            "id": 65,
+            "shortName": "batrider",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 1
+              },
+              {
+                "level": 3,
+                "roleId": 3
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              },
+              {
+                "level": 2,
+                "roleId": 6
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_chen",
+            "displayName": "Chen",
+            "aliases": [],
+            "id": 66,
+            "shortName": "chen",
+            "roles": [
+              {
+                "level": 3,
+                "roleId": 6
+              },
+              {
+                "level": 2,
+                "roleId": 7
+              },
+              {
+                "level": 2,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_spectre",
+            "displayName": "Spectre",
+            "aliases": [],
+            "id": 67,
+            "shortName": "spectre",
+            "roles": [
+              {
+                "level": 3,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 1
+              },
+              {
+                "level": 1,
+                "roleId": 4
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_ancient_apparition",
+            "displayName": "Ancient Apparition",
+            "aliases": [
+              "aa"
+            ],
+            "id": 68,
+            "shortName": "ancient_apparition",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 2,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_doom_bringer",
+            "displayName": "Doom",
+            "aliases": [
+              "db"
+            ],
+            "id": 69,
+            "shortName": "doom_bringer",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 2,
+                "roleId": 3
+              },
+              {
+                "level": 2,
+                "roleId": 4
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_ursa",
+            "displayName": "Ursa",
+            "aliases": [],
+            "id": 70,
+            "shortName": "ursa",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 4
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 6
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_spirit_breaker",
+            "displayName": "Spirit Breaker",
+            "aliases": [
+              "sb"
+            ],
+            "id": 71,
+            "shortName": "spirit_breaker",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 1
+              },
+              {
+                "level": 2,
+                "roleId": 3
+              },
+              {
+                "level": 2,
+                "roleId": 4
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_gyrocopter",
+            "displayName": "Gyrocopter",
+            "aliases": [],
+            "id": 72,
+            "shortName": "gyrocopter",
+            "roles": [
+              {
+                "level": 3,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_alchemist",
+            "displayName": "Alchemist",
+            "aliases": [],
+            "id": 73,
+            "shortName": "alchemist",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 3
+              },
+              {
+                "level": 2,
+                "roleId": 4
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_invoker",
+            "displayName": "Invoker",
+            "aliases": [],
+            "id": 74,
+            "shortName": "invoker",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 1
+              },
+              {
+                "level": 3,
+                "roleId": 2
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_silencer",
+            "displayName": "Silencer",
+            "aliases": [],
+            "id": 75,
+            "shortName": "silencer",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 2,
+                "roleId": 3
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_obsidian_destroyer",
+            "displayName": "Outworld Destroyer",
+            "aliases": [
+              "od"
+            ],
+            "id": 76,
+            "shortName": "obsidian_destroyer",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 2,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_lycan",
+            "displayName": "Lycan",
+            "aliases": [],
+            "id": 77,
+            "shortName": "lycan",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 1
+              },
+              {
+                "level": 1,
+                "roleId": 4
+              },
+              {
+                "level": 1,
+                "roleId": 6
+              },
+              {
+                "level": 3,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_brewmaster",
+            "displayName": "Brewmaster",
+            "aliases": [
+              "bm"
+            ],
+            "id": 78,
+            "shortName": "brewmaster",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 3,
+                "roleId": 3
+              },
+              {
+                "level": 2,
+                "roleId": 4
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_shadow_demon",
+            "displayName": "Shadow Demon",
+            "aliases": [
+              "sd"
+            ],
+            "id": 79,
+            "shortName": "shadow_demon",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 3
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              },
+              {
+                "level": 2,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_lone_druid",
+            "displayName": "Lone Druid",
+            "aliases": [
+              "ld"
+            ],
+            "id": 80,
+            "shortName": "lone_druid",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 4
+              },
+              {
+                "level": 1,
+                "roleId": 6
+              },
+              {
+                "level": 3,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_chaos_knight",
+            "displayName": "Chaos Knight",
+            "aliases": [
+              "ck"
+            ],
+            "id": 81,
+            "shortName": "chaos_knight",
+            "roles": [
+              {
+                "level": 3,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 3
+              },
+              {
+                "level": 2,
+                "roleId": 4
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              },
+              {
+                "level": 2,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_meepo",
+            "displayName": "Meepo",
+            "aliases": [
+              "geomancer",
+              "meepwn"
+            ],
+            "id": 82,
+            "shortName": "meepo",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 2,
+                "roleId": 1
+              },
+              {
+                "level": 2,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 3
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_treant",
+            "displayName": "Treant Protector",
+            "aliases": [],
+            "id": 83,
+            "shortName": "treant",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 1
+              },
+              {
+                "level": 2,
+                "roleId": 3
+              },
+              {
+                "level": 1,
+                "roleId": 4
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 3,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_ogre_magi",
+            "displayName": "Ogre Magi",
+            "aliases": [
+              "om"
+            ],
+            "id": 84,
+            "shortName": "ogre_magi",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 3
+              },
+              {
+                "level": 1,
+                "roleId": 4
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              },
+              {
+                "level": 2,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_undying",
+            "displayName": "Undying",
+            "aliases": [
+              "dirge"
+            ],
+            "id": 85,
+            "shortName": "undying",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 2,
+                "roleId": 4
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_rubick",
+            "displayName": "Rubick",
+            "aliases": [
+              "rubick"
+            ],
+            "id": 86,
+            "shortName": "rubick",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 2,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_disruptor",
+            "displayName": "Disruptor",
+            "aliases": [
+              "disruptor"
+            ],
+            "id": 87,
+            "shortName": "disruptor",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 3
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              },
+              {
+                "level": 2,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_nyx_assassin",
+            "displayName": "Nyx Assassin",
+            "aliases": [
+              "na"
+            ],
+            "id": 88,
+            "shortName": "nyx_assassin",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 1
+              },
+              {
+                "level": 2,
+                "roleId": 2
+              },
+              {
+                "level": 2,
+                "roleId": 3
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_naga_siren",
+            "displayName": "Naga Siren",
+            "aliases": [
+              "naga"
+            ],
+            "id": 89,
+            "shortName": "naga_siren",
+            "roles": [
+              {
+                "level": 3,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 1
+              },
+              {
+                "level": 1,
+                "roleId": 3
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 7
+              },
+              {
+                "level": 2,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_keeper_of_the_light",
+            "displayName": "Keeper of the Light",
+            "aliases": [
+              "keeper",
+              "ezalor",
+              "kotl"
+            ],
+            "id": 90,
+            "shortName": "keeper_of_the_light",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 6
+              },
+              {
+                "level": 3,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_wisp",
+            "displayName": "Io",
+            "aliases": [
+              "wisp"
+            ],
+            "id": 91,
+            "shortName": "wisp",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 1
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 3,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_visage",
+            "displayName": "Visage",
+            "aliases": [
+              "visage"
+            ],
+            "id": 92,
+            "shortName": "visage",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 4
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 7
+              },
+              {
+                "level": 1,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_slark",
+            "displayName": "Slark",
+            "aliases": [
+              "slark"
+            ],
+            "id": 93,
+            "shortName": "slark",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 3,
+                "roleId": 1
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_medusa",
+            "displayName": "Medusa",
+            "aliases": [
+              "medusa",
+              "gorgon"
+            ],
+            "id": 94,
+            "shortName": "medusa",
+            "roles": [
+              {
+                "level": 3,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 4
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_troll_warlord",
+            "displayName": "Troll Warlord",
+            "aliases": [
+              "troll",
+              "jahrakal"
+            ],
+            "id": 95,
+            "shortName": "troll_warlord",
+            "roles": [
+              {
+                "level": 3,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 4
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 2,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_centaur",
+            "displayName": "Centaur Warrunner",
+            "aliases": [
+              "centaur"
+            ],
+            "id": 96,
+            "shortName": "centaur",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 1
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 3,
+                "roleId": 3
+              },
+              {
+                "level": 3,
+                "roleId": 4
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_magnataur",
+            "displayName": "Magnus",
+            "aliases": [
+              "magnataur",
+              "magnus"
+            ],
+            "id": 97,
+            "shortName": "magnataur",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 1
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 3,
+                "roleId": 3
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_shredder",
+            "displayName": "Timbersaw",
+            "aliases": [
+              "Rizzrack",
+              "Shredder",
+              "Timbersaw"
+            ],
+            "id": 98,
+            "shortName": "shredder",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 1
+              },
+              {
+                "level": 3,
+                "roleId": 2
+              },
+              {
+                "level": 2,
+                "roleId": 4
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_bristleback",
+            "displayName": "Bristleback",
+            "aliases": [
+              "Rigwarl",
+              "bb"
+            ],
+            "id": 99,
+            "shortName": "bristleback",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 3
+              },
+              {
+                "level": 3,
+                "roleId": 4
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_tusk",
+            "displayName": "Tusk",
+            "aliases": [
+              "Tuskarr"
+            ],
+            "id": 100,
+            "shortName": "tusk",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 2,
+                "roleId": 3
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_skywrath_mage",
+            "displayName": "Skywrath Mage",
+            "aliases": [
+              "dragonus"
+            ],
+            "id": 101,
+            "shortName": "skywrath_mage",
+            "roles": [
+              {
+                "level": 3,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 2,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_abaddon",
+            "displayName": "Abaddon",
+            "aliases": [
+              "Abaddon"
+            ],
+            "id": 102,
+            "shortName": "abaddon",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 0
+              },
+              {
+                "level": 2,
+                "roleId": 4
+              },
+              {
+                "level": 2,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_elder_titan",
+            "displayName": "Elder Titan",
+            "aliases": [
+              "TC",
+              "Cairne"
+            ],
+            "id": 103,
+            "shortName": "elder_titan",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 2,
+                "roleId": 3
+              },
+              {
+                "level": 1,
+                "roleId": 4
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_legion_commander",
+            "displayName": "Legion Commander",
+            "aliases": [
+              "Tresdin",
+              "Legion"
+            ],
+            "id": 104,
+            "shortName": "legion_commander",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 3
+              },
+              {
+                "level": 1,
+                "roleId": 4
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_techies",
+            "displayName": "Techies",
+            "aliases": [],
+            "id": 105,
+            "shortName": "techies",
+            "roles": [
+              {
+                "level": 3,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_ember_spirit",
+            "displayName": "Ember Spirit",
+            "aliases": [
+              "Xin",
+              "Ember"
+            ],
+            "id": 106,
+            "shortName": "ember_spirit",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 3,
+                "roleId": 1
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 3
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_earth_spirit",
+            "displayName": "Earth Spirit",
+            "aliases": [
+              "Kaolin",
+              "Earth"
+            ],
+            "id": 107,
+            "shortName": "earth_spirit",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 1
+              },
+              {
+                "level": 2,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 3
+              },
+              {
+                "level": 1,
+                "roleId": 4
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_abyssal_underlord",
+            "displayName": "Underlord",
+            "aliases": [
+              "PitLord",
+              "Azgalor"
+            ],
+            "id": 108,
+            "shortName": "abyssal_underlord",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 1
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 4
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_terrorblade",
+            "displayName": "Terrorblade",
+            "aliases": [
+              "tb"
+            ],
+            "id": 109,
+            "shortName": "terrorblade",
+            "roles": [
+              {
+                "level": 3,
+                "roleId": 0
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 2,
+                "roleId": 8
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_phoenix",
+            "displayName": "Phoenix",
+            "aliases": [
+              "ph"
+            ],
+            "id": 110,
+            "shortName": "phoenix",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 1
+              },
+              {
+                "level": 3,
+                "roleId": 2
+              },
+              {
+                "level": 2,
+                "roleId": 3
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_oracle",
+            "displayName": "Oracle",
+            "aliases": [
+              "ora"
+            ],
+            "id": 111,
+            "shortName": "oracle",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 1
+              },
+              {
+                "level": 3,
+                "roleId": 2
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              },
+              {
+                "level": 3,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_winter_wyvern",
+            "displayName": "Winter Wyvern",
+            "aliases": [],
+            "id": 112,
+            "shortName": "winter_wyvern",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 2
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              },
+              {
+                "level": 3,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_arc_warden",
+            "displayName": "Arc Warden",
+            "aliases": [
+              "zet"
+            ],
+            "id": 113,
+            "shortName": "arc_warden",
+            "roles": [
+              {
+                "level": 3,
+                "roleId": 0
+              },
+              {
+                "level": 3,
+                "roleId": 1
+              },
+              {
+                "level": 1,
+                "roleId": 2
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_monkey_king",
+            "displayName": "Monkey King",
+            "aliases": [
+              "mk"
+            ],
+            "id": 114,
+            "shortName": "monkey_king",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 2,
+                "roleId": 1
+              },
+              {
+                "level": 1,
+                "roleId": 3
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_dark_willow",
+            "displayName": "Dark Willow",
+            "aliases": [],
+            "id": 119,
+            "shortName": "dark_willow",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 1
+              },
+              {
+                "level": 2,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 2,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_pangolier",
+            "displayName": "Pangolier",
+            "aliases": [
+              "ar"
+            ],
+            "id": 120,
+            "shortName": "pangolier",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 2,
+                "roleId": 1
+              },
+              {
+                "level": 2,
+                "roleId": 2
+              },
+              {
+                "level": 2,
+                "roleId": 3
+              },
+              {
+                "level": 1,
+                "roleId": 4
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_grimstroke",
+            "displayName": "Grimstroke",
+            "aliases": [
+              "gs"
+            ],
+            "id": 121,
+            "shortName": "grimstroke",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 1
+              },
+              {
+                "level": 2,
+                "roleId": 2
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_hoodwink",
+            "displayName": "Hoodwink",
+            "aliases": [
+              "squirrel"
+            ],
+            "id": 123,
+            "shortName": "hoodwink",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 1
+              },
+              {
+                "level": 2,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_void_spirit",
+            "displayName": "Void Spirit",
+            "aliases": [
+              "Void",
+              "VS",
+              "Inai"
+            ],
+            "id": 126,
+            "shortName": "void_spirit",
+            "roles": [
+              {
+                "level": 2,
+                "roleId": 0
+              },
+              {
+                "level": 3,
+                "roleId": 1
+              },
+              {
+                "level": 2,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_snapfire",
+            "displayName": "Snapfire",
+            "aliases": [
+              "snap",
+              "mortimer"
+            ],
+            "id": 128,
+            "shortName": "snapfire",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 1
+              },
+              {
+                "level": 3,
+                "roleId": 2
+              },
+              {
+                "level": 1,
+                "roleId": 5
+              },
+              {
+                "level": 1,
+                "roleId": 7
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_mars",
+            "displayName": "Mars",
+            "aliases": [
+              "mars"
+            ],
+            "id": 129,
+            "shortName": "mars",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 0
+              },
+              {
+                "level": 2,
+                "roleId": 3
+              },
+              {
+                "level": 3,
+                "roleId": 4
+              },
+              {
+                "level": 2,
+                "roleId": 5
+              }
+            ]
+          },
+          {
+            "name": "npc_dota_hero_dawnbreaker",
+            "displayName": "Dawnbreaker",
+            "aliases": [
+              "Dawnbreaker",
+              "Valora"
+            ],
+            "id": 135,
+            "shortName": "dawnbreaker",
+            "roles": [
+              {
+                "level": 1,
+                "roleId": 0
+              },
+              {
+                "level": 2,
+                "roleId": 4
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
