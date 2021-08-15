@@ -1,6 +1,8 @@
 import 'package:dota_2_stats/services/service_index.dart';
 import 'package:dota_2_stats/views/view_index.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:theme_provider/theme_provider.dart';
 
 import 'services/graphql_dota/graphql_dota.dart';
@@ -24,6 +26,7 @@ class MyApp extends StatelessWidget {
             accentColor: Colors.white,
             backgroundColor: Colors.black,
             cardColor: Colors.white.withOpacity(0.1),
+            fontFamily: GoogleFonts.breeSerif().fontFamily,
             textTheme: TextTheme(
               headline6: TextStyle(
                 fontSize: 20.0,
@@ -31,6 +34,8 @@ class MyApp extends StatelessWidget {
                 color: Colors.white,
               ),
               subtitle1: TextStyle(color: Colors.white),
+              bodyText1: TextStyle(color: Colors.white),
+              bodyText2: TextStyle(color: Colors.white),
             ),
             hintColor: Colors.white.withOpacity(0.2),
             textSelectionTheme: TextSelectionThemeData(
@@ -69,6 +74,9 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       body: Center(
         child: ListAllHeroes(),
+        // child: DetailHero(
+        //   heroID: 100,
+        // ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},

@@ -11,6 +11,7 @@ class DotaGraphConfig {
 class DotaGraph {
   late Link _link;
   late GraphQLClient _client;
+  List<HeroSummary>? cachedHeroInfo;
   DotaGraph() {
     _link = HttpLink(DotaGraphConfig.linkToGraphQL);
     _client = getGithubGraphQLClient();
@@ -23,6 +24,9 @@ class DotaGraph {
   }
 
   Future<List<HeroSummary>> allHeroesInformation() async {
+    if (cachedHeroInfo != null) {
+      return Future.value(cachedHeroInfo);
+    }
     final QueryOptions options = QueryOptions(
       document: gql(
         r'''
@@ -33,6 +37,10 @@ class DotaGraph {
             displayName
             aliases
             id
+            language {
+              lore
+              hype
+            }
             shortName
             roles {
               level
@@ -84,7 +92,7 @@ class DotaGraph {
       print(result.exception.toString());
     }
     final foundedData = result.data!['constants']['heroes'] as List<Object?>;
-
-    return AllHeroesSummary.fromGraphData(foundedData).allHeroes;
+    cachedHeroInfo = AllHeroesSummary.fromGraphData(foundedData).allHeroes;
+    return cachedHeroInfo!;
   }
 }

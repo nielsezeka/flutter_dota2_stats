@@ -1,3 +1,5 @@
+import 'package:animations/animations.dart';
+import 'package:extended_image/extended_image.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -28,19 +30,22 @@ class _ListAllHeroesState extends State<ListAllHeroes> {
             },
           ),
           Expanded(
-            child: StreamBuilder<List<HeroSummarySection>>(
-                stream: listAllHeroesBloc.observeHeroList(),
-                builder: (context, snapshot) {
-                  List<HeroSummarySection> allHeroes =
-                      (snapshot.hasData ? snapshot.data : []) ?? [];
-                  return ListView.builder(
-                    itemBuilder: (listContext, index) => _renderListOfSection(
-                      allHeroes[index].heroes,
-                      allHeroes[index].sectionName,
-                    ),
-                    itemCount: allHeroes.length,
-                  );
-                }),
+            child: SingleChildScrollView(
+              child: StreamBuilder<List<HeroSummarySection>>(
+                  stream: listAllHeroesBloc.observeHeroList(),
+                  builder: (context, snapshot) {
+                    List<HeroSummarySection> allHeroes =
+                        (snapshot.hasData ? snapshot.data : []) ?? [];
+                    return Column(
+                      children: allHeroes
+                          .map((e) => _renderListOfSection(
+                                e.heroes,
+                                e.sectionName,
+                              ))
+                          .toList(),
+                    );
+                  }),
+            ),
           ),
         ],
       ),
@@ -48,64 +53,61 @@ class _ListAllHeroesState extends State<ListAllHeroes> {
   }
 
   Widget _renderListOfSection(
-      List<HeroSummaryOnView> allHeroes, String sectionName) {
-    return Column(
-      children: [
-        Container(
-          height: 70,
-          width: double.infinity,
-          padding: EdgeInsets.only(
-            left: 20,
-          ),
-          child: Align(
-            alignment: Alignment.centerLeft,
-            child: Text(
-              sectionName,
-              textAlign: TextAlign.start,
-              style: currentTheme.textTheme.headline6,
+    List<HeroSummaryOnView> allHeroes,
+    String sectionName,
+  ) {
+    return RepaintBoundary(
+      child: Column(
+        children: [
+          Container(
+            height: 70,
+            width: double.infinity,
+            padding: EdgeInsets.only(
+              left: 20,
+            ),
+            child: Align(
+              alignment: Alignment.centerLeft,
+              child: Text(
+                sectionName,
+                textAlign: TextAlign.start,
+                style: currentTheme.textTheme.headline6,
+              ),
             ),
           ),
-        ),
-        Wrap(
-          alignment: WrapAlignment.start,
-          spacing: 10,
-          runSpacing: 10,
-          children: allHeroes
-              .map(
-                (hero) => CupertinoButton(
-                  onPressed: () {},
-                  padding: EdgeInsets.zero,
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(8.0),
-                    child: Container(
-                      width: 70,
-                      height: 140,
-                      child: ClipRRect(
-                        // child: FittedBox(
-                        //   child: ColorFiltered(
-                        //       colorFilter: ColorFilter.mode(
-                        //         Colors.black.withOpacity(
-                        //           hero.highlighted
-                        //               ? 0.0
-                        //               : 1.0, // 0 = Colored, 1 = Black & White
-                        //         ),
-                        //         BlendMode.saturation,
-                        //       ),
-                        //       child: Image.network(hero.iconUrl)),
-                        //   fit: BoxFit.cover,
-                        // ),
-                        child: FittedBox(
-                          child: Image.network(hero.iconUrl),
-                          fit: BoxFit.cover,
+          Wrap(
+            alignment: WrapAlignment.start,
+            spacing: 10,
+            runSpacing: 10,
+            children: allHeroes
+                .map((hero) => OpenContainer(closedBuilder: (context, action) {
+                      return ClipRRect(
+                        // borderRadius: BorderRadius.circular(8.0),
+                        child: Container(
+                          width: 70,
+                          height: 140,
+                          child: ClipRRect(
+                            child: ExtendedImage.network(
+                              hero.iconUrl,
+                              width: 70,
+                              height: 140,
+                              fit: BoxFit.cover,
+                              cache: true,
+                              // borderRadius: BorderRadius.all(
+                              //   Radius.circular(8.0),
+                              // ),
+                            ),
+                          ),
                         ),
-                      ),
-                    ),
-                  ),
-                ),
-              )
-              .toList(),
-        ),
-      ],
+                      );
+                    }, openBuilder: (context, action) {
+                      return Material(
+                        child: DetailHero(heroID: hero.id),
+                      );
+                    }))
+                .toList(),
+          )
+        ],
+      ),
     );
   }
 }

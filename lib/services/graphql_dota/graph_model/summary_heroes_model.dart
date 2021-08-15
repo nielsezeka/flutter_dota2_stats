@@ -5,6 +5,8 @@ class HeroSummary {
   final int id;
   final String? attribute;
   final String? shortName;
+  final String? lore;
+  final String? hype;
   HeroSummary(
     this.name,
     this.displayName,
@@ -12,7 +14,23 @@ class HeroSummary {
     this.id,
     this.shortName,
     this.attribute,
+    this.lore,
+    this.hype,
   );
+  HeroSummary.defaultHero({
+    this.name = '',
+    this.displayName = '',
+    this.aliases = const [],
+    this.id = -1,
+    this.shortName = '',
+    this.attribute = '',
+    this.lore = '',
+    this.hype = '',
+  });
+  String loreInText() {
+    return (this.lore ?? '').replaceAll('<br>', '').replaceAll("\t", "  ");
+  }
+
   String getIconThumb() {
     return 'https://cdn.stratz.com/images/dota2/heroes/${shortName}_vert.png';
   }
@@ -41,7 +59,9 @@ class HeroSummary {
             (json['aliases'] as List<Object?>).map((e) => e as String).toList(),
         id = json['id'],
         shortName = json['shortName'],
-        attribute = json['stats']['primaryAttribute'];
+        attribute = json['stats']['primaryAttribute'],
+        lore = json['language']['lore'],
+        hype = json['language']['hype'];
 }
 
 class AllHeroesSummary {

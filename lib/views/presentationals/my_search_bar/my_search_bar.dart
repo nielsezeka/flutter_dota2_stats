@@ -35,7 +35,7 @@ class _MySearchBarState extends State<MySearchBar> {
                 borderRadius: BorderRadius.circular(8.0),
               ),
               border: OutlineInputBorder(),
-              hintText: 'Enter a search term',
+              hintText: 'Enter a search term...',
             ),
           ),
         ),
